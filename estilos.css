@@ -1,0 +1,32 @@
+:root {
+    --primer-color:#FEF9FF;
+    --segundo-color: #D4C1EC;
+    --tercer-color: #9F9FED;
+    --cuarto-color: #736CED;
+}
+
+.contenedor {
+    background: var(--primer-color);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100dvh;
+}
+
+.login {
+    background: var(--segundo-color);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.boton {
+    background: #9F9FED;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+}
