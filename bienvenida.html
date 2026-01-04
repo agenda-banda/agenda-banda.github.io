@@ -16,6 +16,28 @@
     <div class="apartado" id="recordatorios">Recordatorios: 0</div>
 </section>
 
+<!-- Modal -->
+<dialog id="modalGestion">
+  <article>
+    <header>
+      <h4 id="tituloModal"></h4>
+    </header>
+
+    <input type="text" id="inputTexto" placeholder="Descripción" />
+    <input type="date" id="inputFecha" />
+
+    <button id="guardarDato">Guardar</button>
+
+    <hr>
+
+    <ul id="listaDatos"></ul>
+
+    <footer>
+      <button class="secondary" id="cerrarModal">Cerrar</button>
+    </footer>
+  </article>
+</dialog>
+
 <script src="js/bienvenida.js"></script>
 </body>
 </html>
